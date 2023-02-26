@@ -40,7 +40,7 @@ int main(){
 
     auto result = search(vec.begin(), vec.end(), 5);
 
-    std::cout << std::endl << "закончили собираем " << result - vec.begin() << std::endl;
+    std::cout << std::endl << result - vec.begin() << std::endl;
 
     return 0;
 }
