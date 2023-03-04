@@ -5,15 +5,15 @@ int hash_double(double chislo){
 
     uint8_t* data = (uint8_t*)(&chislo);
 
-    uint8_t peremnozhili = 1;
+    uint8_t slozhili = 0;
 
     for (int i = 0; i < sizeof(chislo); i++){
 
-        peremnozhili += data[i];
+        slozhili += data[i];
 
     }
 
-return peremnozhili;
+return slozhili;
 
 }
 
